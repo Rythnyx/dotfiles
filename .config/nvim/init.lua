@@ -1,2 +1,2 @@
-require("ibook.core")
-require("ibook.lazy")
+require("nyx.core")
+require("nyx.lazy")
