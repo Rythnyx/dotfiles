@@ -1,0 +1,15 @@
+# Theming & basic window layout
+theme = Hacktober
+
+window-height = 50
+window-width = 80
+
+background-opacity = 0.95
+background-blur-radius = 8
+
+window-padding-x = 20
+
+selection-invert-fg-bg = true
+
+# Behavior
+quit-after-last-window-closed = true
