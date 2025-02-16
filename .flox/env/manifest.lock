@@ -40,13 +40,6 @@
       "ripgrep": {
         "pkg-path": "ripgrep"
       },
-      "sketchybar": {
-        "pkg-path": "sketchybar",
-        "systems": [
-          "aarch64-darwin",
-          "x86_64-darwin"
-        ]
-      },
       "utf8proc": {
         "pkg-path": "utf8proc"
       }
@@ -1500,64 +1493,6 @@
         "out": "/nix/store/r16zs84i0hqdbz4lijjwxxl21c2j9zid-ripgrep-14.1.1"
       },
       "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "sketchybar",
-      "broken": false,
-      "derivation": "/nix/store/pbx0092pk6cjqk5p3l64zywbq201k77b-sketchybar-2.22.1.drv",
-      "description": "Highly customizable macOS status bar replacement",
-      "install_id": "sketchybar",
-      "license": "GPL-3.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
-      "name": "sketchybar-2.22.1",
-      "pname": "sketchybar",
-      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
-      "rev_count": 752742,
-      "rev_date": "2025-02-13T11:42:38Z",
-      "scrape_date": "2025-02-15T05:15:55Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.22.1",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/li4i0yjpp8nka30hb2zabhp01i1b533p-sketchybar-2.22.1"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "sketchybar",
-      "broken": false,
-      "derivation": "/nix/store/2f97x1fvrj4z8lsm754lf9gbk1qfgj37-sketchybar-2.22.1.drv",
-      "description": "Highly customizable macOS status bar replacement",
-      "install_id": "sketchybar",
-      "license": "GPL-3.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
-      "name": "sketchybar-2.22.1",
-      "pname": "sketchybar",
-      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
-      "rev_count": 752742,
-      "rev_date": "2025-02-13T11:42:38Z",
-      "scrape_date": "2025-02-15T05:15:55Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.22.1",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/n0lbn48fbr874s57gvnc3sk8bsjifks7-sketchybar-2.22.1"
-      },
-      "system": "x86_64-darwin",
       "group": "toplevel",
       "priority": 5
     },
