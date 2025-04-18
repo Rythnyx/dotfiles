@@ -1,0 +1,22 @@
+# ignore everything
+*
+
+# include .gitignore
+!.gitignore
+
+# include .zsh
+!*.zsh
+
+# include .config
+!.config
+!*.config/oh-my-posh
+!*.config/oh-my-posh/*
+!*.config/ghostty
+!*.config/ghostty/*
+!*.config/nvim
+!*.config/nvim/**
+
+# include .flox
+!.flox
+!*.flox/**
+
