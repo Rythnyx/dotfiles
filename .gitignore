@@ -6,6 +6,7 @@
 
 # include .zsh
 !*.zsh
+!*.zsh/personal/*
 !.zshrc
 
 # include .config
