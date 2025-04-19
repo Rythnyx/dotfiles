@@ -1,7 +1,7 @@
 ### activate default flox environment
 eval "$(flox activate -m run)"
 
-### Personal/custom configs
+### Personal/Work configs
 first_init=$([ ! -d "$HOME/.zsh" ] && true || echo false)
 if $first_init; then
   mkdir -p $HOME/.zsh/personal
@@ -11,8 +11,17 @@ fi
 ZSH_P="$HOME/.zsh/personal"
 ZSH_W="$HOME/.zsh/work"
 
-[[ -f "$ZSH_P/aliases.zsh" ]] && source "$ZSH_P/aliases.zsh"
-[[ -f "$ZSH_P/oh-my-posh.zsh" ]] && source "$ZSH_P/oh-my-posh.zsh"
+if [ "$(find $ZSH_P -type f | head -n 1)" ]; then
+  for f in $ZSH_P/*; do
+     . "$f"
+  done
+fi
+
+if [ "$(find $ZSH_W -type f | head -n 1)" ]; then
+  for f in $ZSH_W/*; do
+    . "$f"
+  done
+fi
 
 ### Start up the prompt
 # Load oh-my-posh
