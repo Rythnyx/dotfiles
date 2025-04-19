@@ -18,14 +18,3 @@ eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/night-owl.omp.json
 ### General dev export
 export VOLUMES="$HOME/Developer/volumes"
 
-### Go Brew
-export PATH="/opt/go/.gobrew/current/bin:/opt/go/.gobrew/bin:$PATH"
-export GOBREW_ROOT=/opt/go
-export GOROOT="/opt/go/.gobrew/current/go"
-export GOPATH="/opt/go/workspace"
-
-### pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
