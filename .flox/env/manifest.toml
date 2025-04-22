@@ -25,6 +25,7 @@ fastfetch.pkg-path = "fastfetch"
 openssl.pkg-path = "openssl"
 hidden-bar.pkg-path = "hidden-bar"
 hidden-bar.systems = ["aarch64-darwin", "x86_64-darwin"]
+tree-sitter.pkg-path = "tree-sitter"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
