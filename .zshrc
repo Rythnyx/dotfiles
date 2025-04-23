@@ -1,5 +1,5 @@
 ### activate default flox environment
-eval "$(flox activate -m run)"
+eval "$(flox activate -d $HOME -m run)"
 
 ### Personal/Work configs
 first_init=$([ ! -d "$HOME/.zsh" ] && true || echo false)
