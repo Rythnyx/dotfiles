@@ -1,16 +1,15 @@
 # ignore everything
-*
+/*
 
 # include .gitignore
 !.gitignore
 
-# include .zsh
-!*.zsh
-!*.zsh/personal/*
+# include personal .dots
+!*.dots
+!*.dots/personal/*
 !.zshrc
 
 # include .config
-!.config
 !*.config/oh-my-posh
 !*.config/oh-my-posh/*
 !*.config/ghostty

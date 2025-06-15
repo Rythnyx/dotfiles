@@ -2,23 +2,23 @@
 eval "$(flox activate -d $HOME -m run)"
 
 ### Personal/Work configs
-first_init=$([ ! -d "$HOME/.zsh" ] && true || echo false)
+first_init=$([ ! -d "$HOME/.dots" ] && true || echo false)
 if $first_init; then
-  mkdir -p $HOME/.zsh/personal
-  mkdir -p $HOME/.zsh/work
+  mkdir -p $HOME/.dots/personal
+  mkdir -p $HOME/.dots/work
 fi
 
-ZSH_P="$HOME/.zsh/personal"
-ZSH_W="$HOME/.zsh/work"
+DOTS_P="$HOME/.dots/personal"
+DOTS_W="$HOME/.dots/work"
 
-if [ "$(find $ZSH_P -type f | head -n 1)" ]; then
-  for f in $ZSH_P/*; do
+if [ "$(find $DOTS_P -type f | head -n 1)" ]; then
+  for f in $DOTS_P/*; do
      . "$f"
   done
 fi
 
-if [ "$(find $ZSH_W -type f | head -n 1)" ]; then
-  for f in $ZSH_W/*; do
+if [ "$(find $DOTS_W -type f | head -n 1)" ]; then
+  for f in $DOTS_W/*; do
     . "$f"
   done
 fi
