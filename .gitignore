@@ -6,6 +6,7 @@
 
 # include personal .dots
 !*.dots
+*.dots/work
 !*.dots/personal/*
 !.zshrc
 
