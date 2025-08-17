@@ -15,3 +15,8 @@ Primary things used here include:
   - allows for [environment layering]([url](https://flox.dev/docs/tutorials/layering-multiple-environments/)) for different dev stacks that build off a default
 - nvim
   - lua customization is easily portable thanks to [lazy nvim]([url](http://www.lazyvim.org/configuration/lazy.nvim))
+ 
+### Possible Issues
+- flox
+  - Presently corporate networks requiring certificates being added to the machines trustore may cause issues and [env vars described here](https://flox.dev/docs/reference/command-reference/flox/#environment-variables) do not remedy it
+    - a workaround can be [found here](https://github.com/flox/flox/issues/1561#issuecomment-2671920354)
