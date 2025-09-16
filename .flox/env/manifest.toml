@@ -21,7 +21,6 @@ neovim.pkg-path = "neovim"
 oh-my-posh.pkg-path = "oh-my-posh"
 ripgrep.pkg-path = "ripgrep"
 utf8proc.pkg-path = "utf8proc"
-fastfetch.pkg-path = "fastfetch"
 openssl.pkg-path = "openssl"
 hidden-bar.pkg-path = "hidden-bar"
 hidden-bar.systems = ["aarch64-darwin", "x86_64-darwin"]
