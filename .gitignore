@@ -1,30 +1,4 @@
-# ignore everything
-/*
-/**
-
-# include .gitignore
-!.gitignore
-
-# include personal .dots
-!*.dots
-!*.dots/personal/*
-!.zshrc
-
 # explicitly ignore work directory contents
-!*.dots/work
 *.dots/work/*
 *.dots/work/**
-
-# include .config
-!*.config
-!*.config/oh-my-posh
-!*.config/oh-my-posh/*
-!*.config/ghostty
-!*.config/ghostty/*
-!*.config/nvim
-!*.config/nvim/*
-
-# include .flox
-!.flox
-!*.flox/**
 
