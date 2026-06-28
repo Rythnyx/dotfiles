@@ -16,14 +16,14 @@ if [ "$SCRIPT_DIR" != "$dotfiles_dir" ]; then
 fi
 
 ### Determines if we need to do some additional setup in the env
-first_init=$([ ! -d "$dotfiles_dir/.dots/work" ] && true || echo false)
+first_init=$([ ! -d "$dotfiles_dir/dots/work" ] && true || echo false)
 if $first_init; then
-  mkdir -p $dotfiles_dir/.dots/work
+  mkdir -p $dotfiles_dir/dots/work
   mkdir -p "$DEV_VOLUMES"  
 fi
 
 ### Lastly, overwrite the .zshrc and .config in the home directory 
 ### to make sure everything is up to date
-cp -rf ./.config $HOME/.config
-cp -rf .zshrc $HOME/.zshrc
+cp -rf ./config $HOME/.config
+cp -rf zshrc $HOME/.zshrc
 

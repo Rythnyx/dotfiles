@@ -3,7 +3,7 @@ Contains base config for devices I do work on (primarily macbooks).
 Primary things used here include:
 - zsh
   - Basic scripting setup, may replace with fish at some point
-  - [ ] todo: `.zshrc` should start flox for default env, hold refrences to `.dots`, setup prompt, and provide basic defaults/overrides
+  - [ ] todo: `.zshrc` should start flox for default env, hold refrences to `dots`, setup prompt, and provide basic defaults/overrides
 - [flox]([url](https://flox.dev))
   - used to allow for some basic config and default shell setup
     - [oh-my-posh](https://ohmyposh.dev)
@@ -20,7 +20,7 @@ Very rudimentary installation via `install.sh`.
 - Expectation of this repository being installed under `~/Developer` on your machine
   - Path should be `~/Developer/dotfiles`, but if not, it will overwrite its contents there each install
 - `install.sh` will overwrite your `$HOME/.zshrc` and merge/overwrite contents of `$HOME/.config`
-  - Also creates a number of aliases and exports per `.dots/personal/*`
+  - Also creates a number of aliases and exports per `dots/personal/*`
   
 
 ### Possible Issues

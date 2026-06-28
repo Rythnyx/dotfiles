@@ -6,14 +6,14 @@ eval "$(flox activate -d $dotfiles_dir -m run)"
 
 ### Start up the prompt
 # Load oh-my-posh
-eval "$(oh-my-posh init zsh --config $dotfiles_dir/.config/oh-my-posh/night-owl.omp.json)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/night-owl.omp.json)"
 
 ### eza replacing ls
 alias ls="eza --icons --grid --classify --colour=auto --sort=type --group-directories-first --header --modified --created --git --binary --group"
 
 ### Source all of our custom .dot env files
-DOTS_P="$dotfiles_dir/.dots/personal"
-DOTS_W="$dotfiles_dir/.dots/work"
+DOTS_P="$dotfiles_dir/dots/personal"
+DOTS_W="$dotfiles_dir/dots/work"
 
 if [ "$(find $DOTS_P -type f | head -n 1)" ]; then
   for f in $DOTS_P/*; do

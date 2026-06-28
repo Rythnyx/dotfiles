@@ -1,4 +1,4 @@
 # explicitly ignore work directory contents
-*.dots/work/*
-*.dots/work/**
+*dots/work/*
+*dots/work/**
 
