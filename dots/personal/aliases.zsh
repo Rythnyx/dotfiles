@@ -14,7 +14,8 @@ alias vi="vim"
 ### Use eza for ls instead
 if command -v eza >/dev/null 2>&1
 then
-  alias ls="eza"
+  alias ls="eza --icons --grid --classify --colour=auto --sort=type --group-directories-first --header --modified --created --git --binary --group"
+
 fi
 
 if command -v rg >/dev/null 2>&1
