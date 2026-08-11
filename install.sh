@@ -24,6 +24,5 @@ fi
 
 ### Lastly, overwrite the .zshrc and .config in the home directory 
 ### to make sure everything is up to date
-cp -rf ./config $HOME/.config
 cp -rf zshrc $HOME/.zshrc
 

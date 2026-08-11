@@ -1,6 +1,6 @@
 alias ls="ls --color"
-alias ll="ls -ahl --color"
 alias la="ls -a"
+alias ll="ls -ahl"
 alias grep="grep --color"
 
 alias c-dev="cd ~/Developer/"
@@ -15,7 +15,6 @@ alias vi="vim"
 if command -v eza >/dev/null 2>&1
 then
   alias ls="eza --icons --grid --classify --colour=auto --sort=type --group-directories-first --header --modified --created --git --binary --group"
-
 fi
 
 if command -v rg >/dev/null 2>&1
