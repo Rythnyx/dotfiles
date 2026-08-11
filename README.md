@@ -19,8 +19,10 @@ Primary things used here include:
 Very rudimentary installation via `install.sh`.
 - Expectation of this repository being installed under `~/Developer` on your machine
   - Path should be `~/Developer/dotfiles`, but if not, it will overwrite its contents there each install
-- `install.sh` will overwrite your `$HOME/.zshrc` and merge/overwrite contents of `$HOME/.config`
-  - Also creates a number of aliases and exports per `dots/personal/*`
+- `install.sh` will
+  - overwrite your `$HOME/.zshrc`
+  - set `$XDG_CONFIG_HOME` to `~Developer/dotfiles/config`
+  - create a number of aliases and exports per `dots/personal/*`
   
 
 ### Possible Issues
