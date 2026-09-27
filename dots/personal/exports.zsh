@@ -6,3 +6,5 @@ export XDG_CONFIG_HOME="$HOME/Developer/dotfiles/config/"
 ## Container volumes have a convenience environment location
 export DEV_VOLUMES="$HOME/Developer/volumes"
 
+# Add local bin files to path for execution
+export PATH="$HOME/.local/bin:$PATH"
