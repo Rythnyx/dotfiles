@@ -6,7 +6,7 @@
 ##
 ## -------------------------------------------------------------------
 # Flox manifest version managed by Flox CLI
-version = 1
+schema-version = "1.18.0"
 
 
 ## Install Packages --------------------------------------------------
@@ -22,9 +22,11 @@ oh-my-posh.pkg-path = "oh-my-posh"
 ripgrep.pkg-path = "ripgrep"
 utf8proc.pkg-path = "utf8proc"
 openssl.pkg-path = "openssl"
+openssl.outputs = "all"
 hidden-bar.pkg-path = "hidden-bar"
-hidden-bar.systems = ["aarch64-darwin", "x86_64-darwin"]
+hidden-bar.systems = [ "aarch64-darwin" ]
 tree-sitter.pkg-path = "tree-sitter"
+gh.pkg-path = "gh"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
@@ -81,8 +83,6 @@ tree-sitter.pkg-path = "tree-sitter"
 systems = [
   "aarch64-darwin",
   "aarch64-linux",
-  "x86_64-darwin",
-  "x86_64-linux",
 ]
 # Uncomment to disable CUDA detection.
 # cuda-detection = false

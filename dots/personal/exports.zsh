@@ -1,10 +1,5 @@
 # Exports that I like to have in base env or based on other configurations
-
-## NVIM points to dotfile location so I can update it more easily
-export XDG_CONFIG_HOME="$HOME/Developer/dotfiles/config/"
-
-## Container volumes have a convenience environment location
-export DEV_VOLUMES="$HOME/Developer/volumes"
+# (XDG_CONFIG_HOME and DEV_VOLUMES live in env.zsh so non-interactive shells get them too)
 
 # Add local bin files to path for execution
 export PATH="$HOME/.local/bin:$PATH"

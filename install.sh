@@ -22,7 +22,8 @@ if $first_init; then
   mkdir -p "$DEV_VOLUMES"  
 fi
 
-### Lastly, overwrite the .zshrc and .config in the home directory 
+### Lastly, overwrite the .zshenv and .zshrc in the home directory
 ### to make sure everything is up to date
+cp -rf zshenv $HOME/.zshenv
 cp -rf zshrc $HOME/.zshrc
 
