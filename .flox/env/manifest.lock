@@ -12,12 +12,6 @@
       "git-lfs": {
         "pkg-path": "git-lfs"
       },
-      "hidden-bar": {
-        "pkg-path": "hidden-bar",
-        "systems": [
-          "aarch64-darwin"
-        ]
-      },
       "neovim": {
         "pkg-path": "neovim"
       },
@@ -226,35 +220,6 @@
         "out": "/nix/store/6y7vd5kbsxvfxh622lmmip6gwjaf0m11-git-lfs-3.8.1"
       },
       "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "hidden-bar",
-      "broken": false,
-      "derivation": "/nix/store/z1x3r7xsv3h21xq96rjbnfxw94qrhdbp-hidden-bar-1.10.drv",
-      "description": "Ultra-light MacOS utility that helps hide menu bar icons",
-      "install_id": "hidden-bar",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
-      "name": "hidden-bar-1.10",
-      "pname": "hidden-bar",
-      "rev": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
-      "rev_count": 1125864,
-      "rev_date": "2026-11-21T04:16:29Z",
-      "scrape_date": "2026-11-22T05:47:30.631007Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.10",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/id11qz7i5g94zlaqbfb8d8mjcma0qv4h-hidden-bar-1.10"
-      },
-      "system": "aarch64-darwin",
       "group": "toplevel",
       "priority": 5
     },

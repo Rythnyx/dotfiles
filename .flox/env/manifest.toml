@@ -1,11 +1,3 @@
-## Flox Environment Manifest -----------------------------------------
-##
-##   _Everything_ you need to know about the _manifest_ is here:
-##
-##               https://flox.dev/docs/concepts/manifest
-##
-## -------------------------------------------------------------------
-# Flox manifest version managed by Flox CLI
 schema-version = "1.18.0"
 
 
@@ -23,8 +15,6 @@ ripgrep.pkg-path = "ripgrep"
 utf8proc.pkg-path = "utf8proc"
 openssl.pkg-path = "openssl"
 openssl.outputs = "all"
-hidden-bar.pkg-path = "hidden-bar"
-hidden-bar.systems = [ "aarch64-darwin" ]
 tree-sitter.pkg-path = "tree-sitter"
 gh.pkg-path = "gh"
 # gum.pkg-path = "gum"
